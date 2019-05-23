@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react';
 
-function Krishna() {
+function SampleComponent() {
   let name = 'krishna';
   const [time, updatedTime ] = useState(new Date().toString());
 
@@ -18,4 +18,4 @@ function Krishna() {
   )
 }
 
-export default Krishna
+export default SampleComponent
